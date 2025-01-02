@@ -1,2 +1,2 @@
 <script></script>
-<template><div></div></template>
+<template><GlobalHeader /></template>

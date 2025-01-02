@@ -18,7 +18,8 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    extend: {fontFamily: {
+      montserrat: ['Montserrat', 'sans-serif'],},
   },
   plugins: [],
 };
