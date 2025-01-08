@@ -1,14 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-
-/** @type {import('tailwindcss').Config} */
-module.exports = {
   content: [
     './components/**/*.{vue,js,ts}',
     "./layouts/**/*.{vue,js,ts}",
@@ -18,8 +9,18 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {fontFamily: {
-      montserrat: ['Montserrat', 'sans-serif'],},
+    extend: {
+      colors: {
+        'senf': '#EDCA82',
+        'tannen': '#097770',
+        'darkTannen': '#06594E',
+        'hellbraun': '#E0CDBE',
+        'hellTannen': '#A9C0A6',
+      },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };

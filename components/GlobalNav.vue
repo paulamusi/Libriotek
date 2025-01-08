@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 <template>
-    <div class="flex gap-2 text-red-600 text-lg">
-        <button>Home</button>
-        <button>Katalog</button>
-        <button>Login</button>
-    </div>
+  <nav class="flex gap-4 p-4 text-tannen text-lg">
+    <NuxtLink to="/" class="hover:bg-hellTannen p-2 rounded">Home</NuxtLink>
+    <NuxtLink to="/catalog" class="hover:bg-hellTannen p-2 rounded">Catálogo</NuxtLink>
+    <NuxtLink to="/login" class="hover:bg-hellTannen p-2 rounded">Login</NuxtLink>
+  </nav>
 </template>
