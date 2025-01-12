@@ -7,7 +7,7 @@ const handleSubmit = (event: Event) => {
 <template>
     <div class="bg-gradient-to-r from-[#06594E] via-[#097770] to-[#A9C0A6] h-[40vh] flex justify-around items-center">
       <!-- Placeholder -->
-      <div class="h-[200px] w-[200px] bg-tannen"></div>
+      <div class="h-full w-auto"><img src="/images/bgLogin.jpg" alt="book open" class="h-full w-auto object-cover"/></div>
       
       <!-- Formulario -->
       <div class="w-[300px]">
@@ -42,4 +42,4 @@ const handleSubmit = (event: Event) => {
         </form>
       </div>
     </div>
-  </template>
+  </template> 
